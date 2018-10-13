@@ -1,0 +1,53 @@
+.gridDosNumericos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px 10px;
+    width: 25%;
+    background-color: #000000;
+}
+
+.botoesNumericos {
+    border: 0;
+    padding: 20px;
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.botaoZero {
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+
+.gridDosBotoes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 20px;
+    width: 25%;
+}
+
+.botoesDeManipulacao {
+    border: 0;
+    height: 50px;
+    color: black;
+    text-align: center;
+}
+
+.botaoBranco {
+    grid-row-start: 5;
+    background-color: white;
+    font-weight: bold;
+}
+
+.botaoCorrige {
+    grid-row-start: 5;
+    background-color: #ff7b00;
+    font-weight: bold;
+}
+
+.botaoConfirma {
+    grid-row-start: 5;
+    background-color: #35bc00;
+    font-weight: bold;
+}
