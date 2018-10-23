@@ -1,8 +1,7 @@
-.gridDosNumericos {
+.container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
     grid-gap: 10px 10px;
-    width: 25%;
     background-color: #000000;
 }
 
@@ -16,15 +15,8 @@
 }
 
 .botaoZero {
-    grid-row-start: 4;
-    grid-column-start: 2;
-}
-
-.gridDosBotoes {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px 20px;
-    width: 25%;
+    grid-row: 4;
+    grid-column: 9;
 }
 
 .botoesDeManipulacao {
@@ -50,4 +42,12 @@
     grid-row-start: 5;
     background-color: #35bc00;
     font-weight: bold;
+}
+
+.tela {
+    grid-row: 1/span 5;
+    grid-column: 1/span 7;
+
+    background-color: white;
+    border: 5px solid black;
 }
