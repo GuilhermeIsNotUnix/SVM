@@ -53,5 +53,9 @@ window.onload = function() {
     document.getElementById("botaoConfirma").addEventListener("click", function() {
         alert(entrada);
         entrada = "";
-    });   
+    });
+    
+    document.getElementById("botaoResultados").addEventListener("click", function() {
+        alert("Nome    Numero    Votos\nGuilherme Almino    666    ");
+    });
 }

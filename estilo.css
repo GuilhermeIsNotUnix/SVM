@@ -51,3 +51,12 @@
     background-color: white;
     border: 5px solid black;
 }
+
+.botaoResultados {
+    border: none;
+    background-color: #ff2b2b;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
