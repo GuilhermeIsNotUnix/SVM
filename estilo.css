@@ -27,19 +27,19 @@
 }
 
 .botaoBranco {
-    grid-row-start: 5;
+    grid-row: 5;
     background-color: white;
     font-weight: bold;
 }
 
 .botaoCorrige {
-    grid-row-start: 5;
+    grid-row: 5;
     background-color: #ff7b00;
     font-weight: bold;
 }
 
 .botaoConfirma {
-    grid-row-start: 5;
+    grid-row: 5;
     background-color: #35bc00;
     font-weight: bold;
 }
